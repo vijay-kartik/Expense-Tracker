@@ -1,0 +1,143 @@
+.main-container {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.calculations-container {
+    width: 98%;
+    align-items: left;
+    text-align: left;
+    font-size: 25px;
+}
+
+.calculations-container span {
+    border: none;
+    width: 100px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.list-container {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+header {
+    width: 98%;
+    color: aqua;
+    background-color: gray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.table-head {
+    background-color: black;
+    color: white;
+    height: 30px;
+    border: none;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.product {
+    width: 400px;
+}
+
+#add-button {
+    border: none;
+    border-radius: 5px;
+    background-color: aquamarine;
+    width: 100px;
+    font-size: 25px;
+    height: min-content;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.item-date {
+    background-color: rgba(238,167,75,255);
+    padding: 5px;
+    border-radius: 5px; 
+}
+
+.item-product {
+    background-color: rgb(4,251,251);
+    padding: 5px;
+    border-radius: 5px; 
+}
+.item-price {
+    background-color: rgba(163,103,219,255);
+    padding: 5px;
+    border-radius: 5px;
+    min-width: 100px;
+    text-align: left; 
+}
+.item-rahul {
+    background-color: rgba(43,236,219,255);
+    padding: 5px;
+    border-radius: 5px;
+    min-width: 140px; 
+}
+
+.item-ramesh {
+    background-color: rgba(96,158,160,255);
+    padding: 5px;
+    border-radius: 5px; 
+}
+
+.label-total {
+    margin-top: 30px;
+    background-color: rgb(4,251,251);
+    border-radius: 5px;
+}
+.item-sum{
+    background-color: rgba(10,252,172,255);
+    border-radius: 5px;
+}
+.label-rahulSpent{
+    background-color: rgb(4,251,251);
+    border-radius: 5px;
+}
+.item-rahulTotal{
+    background-color: rgba(43,236,219,255);
+    border-radius: 5px;
+}
+.label-rahulSpent{
+    background-color: rgb(4,251,251);
+    border-radius: 5px;
+}
+.item-rameshTotal{
+    background-color: rgba(96,158,160,255);
+    border-radius: 5px;
+}
+
+.settlement {
+    background-color: rgba(254,94,94,255);
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.item-input {
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-left: 20px;
+    font-size: 20px;
+}
